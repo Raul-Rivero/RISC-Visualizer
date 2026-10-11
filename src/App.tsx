@@ -167,8 +167,9 @@ export default function App() {
               labelValues={[]}
               value={speed}
               onChange={setSpeed}
-              labelRenderer={(v) => `${v}/s`}
+              labelRenderer={false}
             />
+            <span className="speed-value">{speed}/s</span>
           </div>
         </Navbar.Group>
         <Navbar.Group align="right">

@@ -47,8 +47,9 @@
 /* ---------- navbar & status ---------- */
 .app-navbar { flex: none; }
 .app-title { font-weight: 600; }
-.speed-control { display: flex; align-items: center; gap: 10px; margin-left: 16px; width: 200px; }
-.speed-control .bp6-slider { min-width: 0; flex: 1; }
+.speed-control { display: flex; align-items: center; gap: 10px; margin-left: 16px; width: 230px; }
+.speed-control .bp6-slider { min-width: 0; flex: 1; height: 16px; }
+.speed-value { width: 32px; font-size: 12px; font-variant-numeric: tabular-nums; color: var(--muted); }
 .speed-label { color: var(--muted); font-size: 12px; }
 .nav-switch { margin: 0 12px 0 16px; }
 
